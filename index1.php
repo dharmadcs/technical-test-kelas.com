@@ -29,7 +29,7 @@ function hitungBanyakKarakterYangSama($str) {
             $result = str_replace($result[$k], "", $result);
         }
     }
-    echo "<br><br>";
+    //
     $stringParts = str_split($result);
     sort($stringParts);
     $str = implode($stringParts);
